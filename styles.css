@@ -1,0 +1,275 @@
+* {
+    font-family: Dosis;
+    font-size: 1.05em;
+    font-weight: 700;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: block;
+    margin-top: -50px;
+}
+
+section {
+    margin-left: 280px;
+    width: 65%;
+}
+
+nav {
+    position: fixed;
+    height: 100%;
+    margin-left: -10px;
+    background-color: gold;
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 1.7em;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.8;
+    color: green;
+}
+
+p a {
+    color: darkgray;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.welcome-img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid green;
+    position: relative;
+    margin-top: 50px;
+}
+
+.index ul li {
+     list-style: none;
+     margin-left: -30px;
+     line-height: 65px;
+     text-align: center;
+     
+}
+
+.iceland-img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 80px;
+    color: green;
+}
+
+h2 {
+    font-size: 45px;
+    color: green;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h2 img {
+    height: 70px;
+}
+
+#about h1 span {
+    color: cadetblue;
+}
+
+#about h1 img {
+    height: 70px;
+}
+
+p {
+    font-weight: normal;
+    color: gray;
+}
+
+hr {
+    margin: 150px 0;
+}
+
+#about {
+    padding-top: 150px;
+}
+
+.link-icons img{
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+}
+
+.figureCaption {
+    margin-top: -5px;
+}
+
+.project-img {
+    width: 250px;
+    display: inline;
+    float: right;
+}
+
+
+.skill-align {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 331px) and (max-width: 690px) {
+    body {
+        margin: auto;
+    }
+
+    section {
+        padding-top: 20px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    nav {
+        padding-top: 0;
+        position: fixed;
+        padding-bottom: 40px;
+        z-index: 2;
+        height: 30px;
+        width: 100%;
+    }
+
+    .welcome-img {
+        display: none;
+    }
+
+    .index ul {
+        width: 100%;
+        margin-left: -95px;
+    }
+
+    .index ul li{
+        list-style: none;
+        float: left;
+        font-size: 19px;
+        margin: 0;
+        margin-top: -30px;
+        padding: 0 12px;
+    }
+
+    .iceland-img {
+        width: 100%;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+    
+    
+}
+
+@media screen and (min-width: 291px) and (max-width: 330px) {
+    body {
+        margin: auto;
+    }
+
+    section {
+        padding-top: 20px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    nav {
+        padding-top: 0;
+        position: fixed;
+        padding-bottom: 47px;
+        z-index: 2;
+        height: 30px;
+        width: 100%;
+    }
+
+    .welcome-img {
+        display: none;
+    }
+
+    .index ul {
+        width: 100%;
+        margin-left: -95px;
+    }
+
+    .index ul li{
+        list-style: none;
+        float: left;
+        font-size: 15px;
+        margin: 0;
+        margin-top: -30px;
+        padding: 0 12px;
+    }
+
+    .iceland-img {
+        width: 100%;
+    }
+    
+    .project-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    body {
+        margin: auto;
+    }
+
+    section {
+        padding-top: 20px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    nav {
+        padding-top: 0;
+        position: fixed;
+        padding-bottom: 10px;
+        z-index: 2;
+        height: 30px;
+        width: 100%;
+    }
+
+    .welcome-img {
+        display: none;
+    }
+
+    .index ul {
+        width: 100%;
+        margin-left: -110px;
+    }
+
+    .index ul li{
+        list-style: none;
+        float: left;
+        font-size: 12px;
+        margin: 0;
+        margin-top: -45px;
+        padding: 0 10px;
+    }
+
+    .iceland-img {
+        width: 100%;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+}
