@@ -51,11 +51,10 @@ a:hover {
 }
 
 .index ul li {
-     list-style: none;
-     margin-left: -30px;
-     line-height: 65px;
-     text-align: center;
-     
+    list-style: none;
+    margin-left: -30px;
+    line-height: 65px;
+    text-align: center;
 }
 
 .iceland-img {
@@ -117,11 +116,9 @@ hr {
     float: right;
 }
 
-
 .skill-align {
     text-align: center;
 }
-
 
 @media screen and (min-width: 331px) and (max-width: 690px) {
     body {
@@ -168,8 +165,6 @@ hr {
     .project-img {
         width: 100%;
     }
-    
-    
 }
 
 @media screen and (min-width: 291px) and (max-width: 330px) {
