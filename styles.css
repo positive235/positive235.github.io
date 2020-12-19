@@ -159,11 +159,19 @@ hr {
     }
 
     .iceland-img {
-        width: 100%;
+        display: none;
+    }
+
+    .iceland-caption {
+        display: none;
     }
 
     .project-img {
-        width: 100%;
+        display: none;
+    }
+
+    #interests {
+        padding-bottom: 150px;
     }
 }
 
@@ -206,12 +214,21 @@ hr {
     }
 
     .iceland-img {
-        width: 100%;
+        display: none;
+    }
+
+    .iceland-caption {
+        display: none;
     }
     
     .project-img {
-        width: 100%;
+        display: none;
     }
+
+    #interests {
+        padding-bottom: 150px;
+    }
+    
 }
 
 @media screen and (max-width: 290px) {
@@ -253,11 +270,19 @@ hr {
     }
 
     .iceland-img {
-        width: 100%;
+        display: none;
     }
 
+    .iceland-caption {
+        display: none;
+    }
+    
     .project-img {
-        width: 100%;
+        display: none;
+    }
+
+    #interests {
+        padding-bottom: 150px;
     }
 
     p {
