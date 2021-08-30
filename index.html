@@ -1,8 +1,16 @@
 <!-- 
-* Credits (Reimplemented):
-* Start Bootstrap - Resume v6.0.0 (https://startbootstrap.com/template-overviews/resume)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+* Its HTML structure and general design follow the "Resume" theme of 
+"Start Bootstrap(https://startbootstrap.com)". The "Resume" theme of "Start Bootstrap" basically 
+use Bootstrap, however, I reimplemented it only with CSS without using Bootstrap.
+
+* Author: Hae-Ji Park (github.com/positive235)
+* Date: Jun 16, 2020
+* Built with: HTML, CSS
+
+* Credits:
+  Start Bootstrap - Resume v6.0.0 (https://startbootstrap.com/template-overviews/resume)
+  Copyright 2013-2020 Start Bootstrap
+  Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
 -->
 
 <!DOCTYPE html>
@@ -41,10 +49,13 @@
                     <h1>HAE-JI <span>PARK</span><img src="img/clover.ico">
                     </h1>
                     <div>San Francisco, CA · <a href="mailto:parkhaej@oregonstate.edu" target="_blank">parkhaej@oregonstate.edu</a></div>
-                    <p>Hi! My name is Hae-Ji Park. (First name: Hae-Ji a.k.a HJ)  
-                        I'm currently a computer science student who believes "Computer Science is like a box of chocolates."
-                        I don't know which chocolate (skills / fields) I will pick in the future, but the thing is, I LOVE chocolates.
-                        When I am not studying, I used to bike and love to see sea lions. They're cute!</p>
+                    <p>
+                        Hi! My name is Hae-Ji Park. (First name: Hae-Ji a.k.a HJ) I live in California, but I'm originally from 
+                        South Korea. I am currently pursuing a B.S. in Computer Science at Oregon State University by taking courses online.
+                        My first degree was in Nursing. I worked as a Registered Nurse for one and a half years in South Korea.
+                        It was rewarding but learning how to code was much more fun. So I decided to change my career path. 
+                        When I'm not coding, I like to bike, hike, go for a walk, and take photos.
+                    </p>
                     <div class="link-icons">
                         <a href="http://www.linkedin.com/in/hae-ji-park-a88a691ba" target="_blank"><img src="img/linkedin.png"></a>
                         <a href="http://github.com/positive235" target="_blank"><img src="img/github.png"></a>                        
@@ -57,6 +68,49 @@
             <section id="projects">
                 <div>
                     <h2>PROJECTS <img src="img/project.ico"></h2>
+
+                    <div>
+                        <div>
+                            <a href="https://positive235.github.io/CS361-we-love-nature/" target="_blank"><img class="project-img" src="img/weLoveNature.png"></a>
+                            <h3><a href="https://positive235.github.io/CS361-we-love-nature/" target="_blank">We Love Nature</a></h3>
+                            <div>React JS / semantic-ui-react / react-tinder-card</div>
+                            <p>[Personal Project (OSU CS361 Project)] "We Love Nature" - Reacting(Like or Dislike) to nature images 
+                                by swiping left or right, or pressing a button, Seeing new set of nature images using my microservice-Nature Image Web Scraper
+                                (deployed on Google Cloud), Styling nature images
+                                (Currently, a background image comes from other OSU student's image manipulation microservice, 
+                                so it takes a while to load the background image.)
+                            </p>
+                            <p><a href="https://youtu.be/YHwwyDte0tc" target="_blank">Project Showcase Video (Aug 2021)</a></p>
+                            <p><a href="https://github.com/positive235/CS361-we-love-nature" target="_blank">Codes on Github</a></p>
+                        </div>
+                        <div><span class="date">2021</span></div>
+                    </div>
+                    <br><br><br>
+
+                    <div>
+                        <div>
+                            <h3><a href="https://github.com/positive235/CS361-image-web-scraper" target="_blank">Nature Image Web Scraper</a></h3>
+                            <div>puppeteer / Express.js</div>
+                            <p>[Personal Project (OSU CS361 Project)] Nature Image Web Scraper using puppeteer. Returns nature image URLs.
+                                (/a-nature-image: Get only one nature image URL, /a-set-of-nature-images: Get about 8 nature image URLs at once.)
+                            </p>
+                            <p><a href="https://github.com/positive235/CS361-image-web-scraper" target="_blank">Codes on Github</a></p>
+                        </div>
+                        <div><span class="date">2021</span></div>
+                    </div>
+                    <br><br><br>
+
+                    <div>
+                        <div>
+                            <a href="https://positive235.github.io/todolist-react/" target="_blank"><img class="project-img" src="img/todolistReact.png"></a>
+                            <h3><a href="https://positive235.github.io/todolist-react/" target="_blank">To-Do List</a></h3>
+                            <div>React JS</div>
+                            <p>[Personal Project] To-Do List in React JS (Add, Check, Edit, Delete, Filter, Drag&Drop Tasks, etc.)</p>
+                            <p><a href="https://github.com/positive235/todolist-react" target="_blank">Codes on Github</a></p>
+                        </div>
+                        <div><span class="date">2021</span></div>
+                    </div>
+                    <br><br><br>
 
                     <div>
                         <div>
@@ -74,7 +128,7 @@
                         <div>
                             <a href="https://github.com/computerHeads/beaverhacksSum20" target="_blank"><img class="project-img" src="img/uqueue.jpg"></a>
                             <h3><a href="https://github.com/computerHeads/beaverhacksSum20" target="_blank">uQueue</a></h3>
-                            <div>JavaScript / Express.js / Node.js / mongo DB / HTML5 / CSS / Bootstrap</div>
+                            <div>JavaScript / Express.js / Node.js / mongo DB / HTML5 / CSS </div>
                             <p>[Team Project] A digital queuing application for small businesses. 
                                 This is a <a href="https://devpost.com/software/uqueue" target="_blank">submission</a> for <a href="https://beaverhacks-summer-2020.devpost.com/" target="_blank">BeaverHacks Summer 2020 hackathon</a>.</p>
                             <p>l worked on the front and back end: login, logout, creating new user/business profile, authentication(by using jsonwebtoken), encrypting password(by using bcrypt). I worked with JavaScript, Node.js, Express.js, mongoDB, Bootstrap, HTML5, CSS.</p>
@@ -127,14 +181,17 @@
                     <div class="skill-align">
                         <h4><img src="img/programming.ico"></h4>
                         <div>                            
-                            <p>Python3 / Pygame / C++<br>
-                            HTML5 / CSS / Bootstrap<br>
-                            JavaScript / React.js / Node.js / Express.js<br>
-                            MySQL / Mongo DB</p>
+                            <p>
+                            Python3 / Pygame / Pandas / Numpy<br>
+                            HTML5 / CSS<br>
+                            JavaScript / React.js / Node.js / Express.js / puppeteer<br>
+                            MySQL / Mongo DB<br>
+                            Git
+                            </p>
                         </div>
                         <h4><img src="img/language.ico"></h4>
                         <div>                   
-                            <p>Korean, English</p>
+                            <p>Korean (Native proficiency), English</p>
                         </div>
                     </div>
                 </div>
@@ -147,7 +204,7 @@
                     <h2>INTERESTS <img src="img/interest.ico"></h2>
                     <p>Cycling / Hiking / Traveling / Software Engineering / AI </p>
                     <img class="iceland-img" src="img/iceland.jpg">
-                    <p class="figureCaption iceland-caption">Lupin in Iceland by H.J.Park</p>
+                    <p class="figureCaption iceland-caption">Lupin in Iceland by Hae-Ji Park</p>
                 </div>
             </section>
         </main>
