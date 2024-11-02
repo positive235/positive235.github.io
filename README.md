@@ -10,7 +10,7 @@ HTML, CSS
 
 ## Author
 
-Hae-Ji Park (github.com/positive235)
+github.com/positive235
 
 ## Credits
 
